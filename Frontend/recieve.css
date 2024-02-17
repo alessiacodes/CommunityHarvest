@@ -24,6 +24,15 @@ body, html {
     max-height: 15%;
 }
 
+.home{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Familijen Grotesk", monospace;
+    
+
+}
 
 
 
@@ -121,6 +130,8 @@ body, html {
 .view-btn:hover{
     background-color: #D0CE7E;
     transition: all 400ms ease;
+    padding: 24px;
+    border-radius: 16px;
 }
 
 
