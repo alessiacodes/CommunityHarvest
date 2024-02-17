@@ -30,10 +30,12 @@ body, html {
     text-align: center;
     font-size: 50px;
     font-family: "Familijen Grotesk", monospace;
-    
-
 }
 
+.btn{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 
 
 .post {
@@ -127,15 +129,10 @@ body, html {
     margin-bottom: 20px;
     padding: 8px 16px;
 }
+
 .view-btn:hover{
     background-color: #D0CE7E;
     transition: all 400ms ease;
     padding: 24px;
     border-radius: 16px;
 }
-
-
-
-
-
-
