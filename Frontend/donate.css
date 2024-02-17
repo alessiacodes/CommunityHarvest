@@ -42,6 +42,11 @@
     margin-top: 10px
 }
 
+.title{
+    margin-top: 20px;
+    text-align: center;
+}
+
 .description{
     margin-top: 20px;
     text-align: center;
