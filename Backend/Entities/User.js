@@ -18,8 +18,8 @@ class User {
         this.posts.push(post);
     }
 
-    printPost(){
-        console.log(this.posts[0].title);
+    addChat(chat){
+        this.chats.push(chat);
     }
 }
 
