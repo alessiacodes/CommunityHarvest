@@ -4,6 +4,7 @@ class Post {
         this.title = title;
         this.description = description;
         this.quantityAvailable = quantityAvailable;
+        this.datetime = new Date().toLocaleString();
 
         this.pickup = pickup;
         this.delivery = delivery;

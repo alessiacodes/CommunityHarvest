@@ -1,0 +1,17 @@
+class Message{
+
+    /**
+     * 
+     * @param {User} sender 
+     * @param {User} reciever 
+     * @param {User} message 
+     */
+    constructor(sender, reciever, message){
+        this.sender = sender;
+        this.reciever = reciever;
+        this.message = message;
+        this.datetime = new Date().toLocaleString();
+    }
+}
+
+module.exports = Message;
