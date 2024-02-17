@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community Harvest</title>
     <link rel="stylesheet" href="donate.css">
+    <script src="donate.js"></script>
 </head>
 
 <body>
@@ -13,12 +14,16 @@
         <p>DONATE PLS</p>
     </div>
 
-    <div class="Upload">
+    <div class="upload">
         <div class="tb-img-view">
           <img id="tb-image" />
         </div>
-        <label for="tb-file-upload">Upload Photo</label>
-        <input type="file" id="tb-file-upload" accept="image/*" onchange="fileUpload(event);" />
+
+        <div class="uploadpic">
+            <label for="tb-file-upload">Upload Photo</label>
+            <input type=file id="tb-file-upload" oninput="previewImage(this)">
+            <img id="pic" />
+        </div>
       </div>
 
     <div class="decsription">
@@ -37,7 +42,7 @@
         </textarea>
     </div>
 
-    <div class = "Options">
+    <div class = "options">
         <input type="Radio" Name="Gender" Value="Pickup">Pickup
         <input type="Radio" Name="Gender" Value="Delivery">Delivery
         <input type="Radio" Name="Gender" Value="Swap">Swap
