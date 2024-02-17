@@ -35,6 +35,11 @@
     width: 100%;
     border-radius: 12px;
   }
+.button1:hover{
+    background-color: #585123;
+    color: #D0CE7C;
+
+}
 
 .box2{
     text-align: center;

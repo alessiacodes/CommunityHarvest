@@ -21,6 +21,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Familijen Grotesk", monospace;
+    color:#585123;
 }
 
 .tb-img-view{
@@ -45,27 +47,37 @@
 .title{
     margin-top: 20px;
     text-align: center;
+    font-family: "Familijen Grotesk", monospace;
+    color:#585123;
+
 }
 
 .description{
     margin-top: 20px;
     text-align: center;
+    font-family: "Familijen Grotesk", monospace;
+    color:#585123;
 }
 
 .quantity{
     margin-top: 20px;
     text-align: center;
+    font-family: "Familijen Grotesk", monospace;
+    color:#585123;
 }
 
 .options{
     margin-top: 20px;
     text-align: center;
+    color:#585123;
 }
 
 .button-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Familijen Grotesk", monospace;
+    color:#585123;
 }
 
 .button {
@@ -77,4 +89,8 @@
     color: #585123;
     cursor: pointer;
     border-radius: 12px;    
+}
+.button:hover{
+    background-color: #585123;
+    color: #D0CE7C;
 }
