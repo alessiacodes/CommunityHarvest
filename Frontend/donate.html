@@ -5,23 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community Harvest</title>
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="donate.css">
+    <script src="donate.js"></script>
+    <style>
+        body{
+            background-color: #FFFDF9;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="text">
-        <p>DONATE PLS</p>
+    <div class="header">
+        <img class="logo1" src="logo title only.png" alt="Logo">
+        <img class="logo2" src="logo round part only.png" alt="Logo">
     </div>
 
-    <div class="Upload">
+    <div class="upload">
         <div class="tb-img-view">
           <img id="tb-image" />
         </div>
-        <label for="tb-file-upload">Upload Photo</label>
-        <input type="file" id="tb-file-upload" accept="image/*" onchange="fileUpload(event);" />
+
+        <div class="uploadpic">
+            <label for="tb-file-upload">Upload Photo</label>
+            <input type=file id="tb-file-upload" oninput="previewImage(this)">
+            <img id="pic" />
+        </div>
       </div>
 
-    <div class="decsription">
+    <div class="title">
+        <label for="freeform">Title:</label>
+        <br>
+        <textarea id="freeform" name="freeform" rows="2" cols="50">
+            Enter title here...
+        </textarea>
+    </div>
+
+    <div class="description">
         <label for="freeform">Product Description:</label>
         <br>
         <textarea id="freeform" name="freeform" rows="4" cols="50">
@@ -37,10 +56,17 @@
         </textarea>
     </div>
 
-    <div class = "Options">
+    <div class = "options">
         <input type="Radio" Name="Gender" Value="Pickup">Pickup
         <input type="Radio" Name="Gender" Value="Delivery">Delivery
         <input type="Radio" Name="Gender" Value="Swap">Swap
+    </div>
+
+
+    <div class="button-container">
+        <a href="main.html">
+            <button id="button" class="button">Post!</button>
+        </a>  
     </div>
 
     
