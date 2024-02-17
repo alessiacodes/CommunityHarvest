@@ -6,6 +6,24 @@ body, html {
     color: black;
 }
 
+.header{
+    background-color: #D0CE7C;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1{
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.logo2{
+    max-width: 15%;
+    max-height: 15%;
+}
+
 .feed {
     width: 100%;
     max-width: 600px;
