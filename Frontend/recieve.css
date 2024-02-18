@@ -30,11 +30,13 @@ body, html {
     text-align: center;
     font-size: 50px;
     font-family: "Familijen Grotesk", monospace;
+    color: #EEC170;
 }
 
 .btn{
     font-size: 30px;
     margin-bottom: 20px;
+    color: #EEC170;
 }
 
 
